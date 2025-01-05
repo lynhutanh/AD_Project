@@ -22,7 +22,7 @@ const Register: React.FC = () => {
 
             console.log("API Response:", response);
 
-            if (response.status === 200 && response.data?.success) {
+            if (response.status === 200) {
                 toast.success("Đăng ký thành công!", {
                     position: "top-right",
                     autoClose: 3000,
